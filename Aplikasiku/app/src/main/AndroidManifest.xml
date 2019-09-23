@@ -9,13 +9,20 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
-		<activity android:name=".SuccessLoginActivity"></activity>
-		<activity android:name=".SuccessResetPasswordActivity" />
-		<activity android:name=".ResetPasswordActivity" />
-		<activity android:name=".ForgotPasswordActivity" />
-		<activity android:name=".LoginActivity" />
-		<activity android:name=".WelcomeActivity" />
-		<activity android:name=".MainActivity">
+		<activity android:name=".SuccessLoginActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+		<activity android:name=".SuccessResetPasswordActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+		<activity android:name=".ResetPasswordActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+		<activity android:name=".ForgotPasswordActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+		<activity android:name=".LoginActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+		<activity android:name=".WelcomeActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+		<activity android:name=".MainActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 
